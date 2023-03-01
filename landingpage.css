@@ -1,0 +1,157 @@
+header {
+    background-color: #1F2937;
+}
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10%;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 100px;
+    height: 400px;
+}
+
+.hero-right {
+    width: 200px;
+    flex-grow: 0;
+    margin-right: 10%;
+    
+}
+
+.hero-left {
+    width: 400px;
+    flex-grow: 0;
+}
+
+.hero-left > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#placeholder {
+    height: 250px;
+    width: 300px;
+    border: solid white;
+}
+
+
+
+
+
+button {
+    padding: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 10%;
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+#signup2 {
+    border: 1px solid white; 
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+
+.figure-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.fig-img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 20%;
+}
+
+figcaption {
+    text-align: center;
+    width: 100px;
+}
+
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 5%;
+}
+
+span {
+    float: right;
+    font-weight: 700;    
+    font-style: normal;
+    margin-top: 10px;
+}
+
+#banner {
+    background-color: #3882f6;
+    margin: 10%;
+    border-radius: 15px;
+    padding: 30px;
+    height: 100px;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+}
